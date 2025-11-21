@@ -50,4 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setCurrentYear();
   bindNotifyButton();
   bindMenuToggle();
+document.addEventListener('DOMContentLoaded', () => {
+  setCurrentYear();
+  bindNotifyButton();
 });
