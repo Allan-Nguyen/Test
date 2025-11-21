@@ -33,8 +33,8 @@ If you prefer to host the static files from the `main` branch, enable GitHub Pag
 
 Once enabled, the site will be available at:
 
-```
-https://<your-github-username>.github.io/Test/web/
-```
+
+https://allan-nguyen.github.io/Test/web/
+
 
 Replace `<your-github-username>` with your GitHub handle and, if the repository name differs, adjust `Test` accordingly.
