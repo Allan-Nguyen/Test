@@ -23,3 +23,18 @@ You can open the page directly from the repo or serve it locally:
    - Then visit http://localhost:8000 in your browser.
 
 Stop the server with `Ctrl+C` when you’re done.
+
+## View via GitHub Pages
+
+If you prefer to host the static files from the `main` branch, enable GitHub Pages for this repository:
+
+1. In GitHub, go to **Settings → Pages**.
+2. Under **Source**, choose the `main` branch and the `/ (root)` folder, then click **Save**.
+
+Once enabled, the site will be available at:
+
+```
+https://<your-github-username>.github.io/Test/web/
+```
+
+Replace `<your-github-username>` with your GitHub handle and, if the repository name differs, adjust `Test` accordingly.
