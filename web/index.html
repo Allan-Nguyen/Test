@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Starter structure for the Test web app." />
+  <title>Test Web App</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Test</div>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Welcome</p>
+          <h1>Everything you need to start building</h1>
+          <p class="lede">
+            This starter page gives you a clean foundation for HTML, CSS, and JavaScript development. Replace
+            the placeholder sections with your own content as you iterate.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#features">Explore features</a>
+            <a class="button ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="placeholder-image">Placeholder</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About this scaffold</h2>
+        <p>
+          The current structure keeps assets organized under <code>web/assets</code>. As you grow the app, add
+          more pages under the <code>web</code> directory or introduce build tooling to bundle assets.
+        </p>
+      </div>
+    </section>
+
+    <section id="features" class="section muted">
+      <div class="container">
+        <h2>Included defaults</h2>
+        <div class="feature-grid">
+          <article class="card">
+            <h3>Semantic HTML</h3>
+            <p>Accessible landmarks and headings provide a solid base for extending the layout.</p>
+          </article>
+          <article class="card">
+            <h3>Starter styles</h3>
+            <p>Reusable utility classes and color variables help keep the design consistent.</p>
+          </article>
+          <article class="card">
+            <h3>Script hook</h3>
+            <p>A minimal JavaScript entry file is ready for adding interactivity and components.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div>
+          <h2>Next steps</h2>
+          <p>Swap out the placeholder copy and imagery to adapt this scaffold to your project goals.</p>
+        </div>
+        <form class="contact-form">
+          <label class="sr-only" for="contact-email">Email</label>
+          <input id="contact-email" type="email" name="email" placeholder="you@example.com" />
+          <button type="button" class="button primary" id="notify-button">Notify me</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Test. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
