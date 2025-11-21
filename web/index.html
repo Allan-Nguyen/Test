@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Starter structure for the Test web app." />
-  <title>Test Web App</title>
+  <meta name="description" content="Family-first learning hub with space for future speech to text, Montessori books, and more." />
+  <title>Family Learning Hub</title>
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
@@ -12,7 +12,7 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <div class="brand">Test</div>
+      <div class="brand">FamilyHub</div>
       <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
         <span class="sr-only">Toggle navigation</span>
         <span class="menu-toggle-bar"></span>
@@ -20,13 +20,10 @@
         <span class="menu-toggle-bar"></span>
       </button>
       <nav id="primary-nav" aria-label="Primary">
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">Test</div>
-      <nav aria-label="Primary">
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#modules">Modules</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -34,52 +31,137 @@
   </header>
 
   <main id="main">
-  <main>
     <section class="hero">
       <div class="container hero-content">
-        <div>
-          <p class="eyebrow">Welcome</p>
-          <h1>Everything you need to start building</h1>
+        <div class="hero-copy">
+          <p class="eyebrow">Coming soon</p>
+          <h1>One calm hub for playful, speech-forward learning.</h1>
           <p class="lede">
-            This starter page gives you a clean foundation for HTML, CSS, and JavaScript development. Replace
-            the placeholder sections with your own content as you iterate.
+            Design your own rhythm of learning with a layout that adapts from pocket-sized mobile screens to roomy
+            desktops. Each section below is a placeholder for the experiences we will build next.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#features">Explore features</a>
-            <a class="button ghost" href="#contact">Get in touch</a>
+            <a class="button primary" href="#modules">Preview the modules</a>
+            <a class="button ghost" href="#roadmap">See the roadmap</a>
+          </div>
+          <div class="pill-strip" aria-label="Highlights">
+            <span class="pill">Mobile-first</span>
+            <span class="pill">Family-friendly</span>
+            <span class="pill">Voice ready</span>
           </div>
         </div>
         <div class="hero-visual" aria-hidden="true">
-          <div class="placeholder-image">Placeholder</div>
+          <div class="device-stack">
+            <div class="device-card">
+              <div class="device-top">Tablet view</div>
+              <div class="device-body">
+                <div class="device-row">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+                <div class="device-block wide"></div>
+                <div class="device-block"></div>
+                <div class="device-block"></div>
+              </div>
+            </div>
+            <div class="device-card mobile">
+              <div class="device-top">Mobile view</div>
+              <div class="device-body">
+                <div class="device-block wide short"></div>
+                <div class="device-block"></div>
+                <div class="device-block"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About this scaffold</h2>
-        <p>
-          The current structure keeps assets organized under <code>web/assets</code>. As you grow the app, add
-          more pages under the <code>web</code> directory or introduce build tooling to bundle assets.
-        </p>
+    <section id="vision" class="section muted">
+      <div class="container split">
+        <div>
+          <h2>A layout that respects quiet focus</h2>
+          <p>
+            The page is crafted to stay legible and calm across screen sizes. Containers scale fluidly, cards reflow
+            into a single column on mobile, and contrast is tuned for comfortable reading during long sessions.
+          </p>
+        </div>
+        <div class="stat-grid" aria-label="Design promises">
+          <article class="card stat">
+            <p class="stat-number">100%</p>
+            <p class="stat-label">Responsive grid</p>
+          </article>
+          <article class="card stat">
+            <p class="stat-number">24/7</p>
+            <p class="stat-label">Ready for caregivers</p>
+          </article>
+          <article class="card stat">
+            <p class="stat-number">∞</p>
+            <p class="stat-label">Room for new modules</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="features" class="section muted">
+    <section id="modules" class="section">
       <div class="container">
-        <h2>Included defaults</h2>
+        <div class="section-header">
+          <p class="eyebrow">Future modules</p>
+          <h2>Placeholders for the experiences we will build</h2>
+          <p class="lede">Each card captures a future feature. Swap the placeholder copy with real content as soon as the functionality ships.</p>
+        </div>
         <div class="feature-grid">
-          <article class="card">
-            <h3>Semantic HTML</h3>
-            <p>Accessible landmarks and headings provide a solid base for extending the layout.</p>
+          <article class="card feature-card">
+            <h3>Speech to Text Lab</h3>
+            <p>Voice-friendly controls, transcription playback, and quiet visual cues for kids practicing sounds.</p>
+            <div class="tag">Voice</div>
           </article>
-          <article class="card">
-            <h3>Starter styles</h3>
-            <p>Reusable utility classes and color variables help keep the design consistent.</p>
+          <article class="card feature-card">
+            <h3>Montessori Books Library</h3>
+            <p>Curated shelves by reading level, tactile-friendly illustrations, and offline-first caching for travel.</p>
+            <div class="tag">Reading</div>
           </article>
-          <article class="card">
-            <h3>Script hook</h3>
-            <p>A minimal JavaScript entry file is ready for adding interactivity and components.</p>
+          <article class="card feature-card">
+            <h3>Interactive Sandbox</h3>
+            <p>Sensory games, drag-friendly shapes, and parent dashboards to track time-on-task.</p>
+            <div class="tag">Play</div>
+          </article>
+          <article class="card feature-card">
+            <h3>Progress Stories</h3>
+            <p>Weekly snapshots, badges, and highlights you can share with therapists or family members.</p>
+            <div class="tag">Insights</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section muted">
+      <div class="container roadmap">
+        <div class="section-header">
+          <p class="eyebrow">Roadmap</p>
+          <h2>Build phases that keep families in the loop</h2>
+          <p class="lede">Each milestone below is a placeholder step. Replace the text as engineering updates roll out.</p>
+        </div>
+        <div class="timeline">
+          <article class="card timeline-card">
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Phase 1 · Foundations</h3>
+              <p>Responsive shell, accessibility checks, and navigation patterns for both mobile and desktop users.</p>
+            </div>
+          </article>
+          <article class="card timeline-card">
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Phase 2 · Voice & Reading</h3>
+              <p>Speech to text experiments and the first Montessori bookshelf with downloadable packs.</p>
+            </div>
+          </article>
+          <article class="card timeline-card">
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Phase 3 · Insights</h3>
+              <p>Progress stories, weekly summaries, and sharing controls for caregivers and specialists.</p>
+            </div>
           </article>
         </div>
       </div>
@@ -88,8 +170,8 @@
     <section id="contact" class="section">
       <div class="container contact">
         <div>
-          <h2>Next steps</h2>
-          <p>Swap out the placeholder copy and imagery to adapt this scaffold to your project goals.</p>
+          <h2>Stay updated</h2>
+          <p>Drop your email to hear when the speech to text lab and Montessori library launch.</p>
         </div>
         <form class="contact-form">
           <label class="sr-only" for="contact-email">Email</label>
@@ -101,8 +183,15 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Test. All rights reserved.</p>
+    <div class="container footer-grid">
+      <div>
+        <p class="brand">FamilyHub</p>
+        <p>Designed to look polished today while leaving room for tomorrow's ideas.</p>
+      </div>
+      <div class="footer-meta">
+        <p>© <span id="year"></span> FamilyHub. All rights reserved.</p>
+        <p class="muted">Content is placeholder only and will be replaced as modules launch.</p>
+      </div>
     </div>
   </footer>
 

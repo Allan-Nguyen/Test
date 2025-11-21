@@ -1,4 +1,4 @@
-// Main JavaScript entry point for the Test scaffold
+// Main JavaScript entry point for the FamilyHub landing page
 
 const setCurrentYear = () => {
   const target = document.getElementById('year');
@@ -50,7 +50,4 @@ document.addEventListener('DOMContentLoaded', () => {
   setCurrentYear();
   bindNotifyButton();
   bindMenuToggle();
-document.addEventListener('DOMContentLoaded', () => {
-  setCurrentYear();
-  bindNotifyButton();
 });
